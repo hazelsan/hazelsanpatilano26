@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/919daa3e3b.js" crossorigin="anonymous"></script>
+    <!--Material Icons--> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Override Materialize CSS -->
+    <link rel="stylesheet" href="src/style.css">
+     <title>TESDA Project</title>
+</head>
+<body>
+
+    <!--Header-->
+    <header class="main-body">
+        <nav class = "transparent">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo">Hazel San Wall</a>
+                    
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="home.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="src/card/quotes.html">COLLECTIONS</a>
+                        </li>
+                        <li>
+                            <a href="signup.html">SIGN UP</a>
+                        </li>
+                        <li>
+                            <a href="#login-modal" class="btn transparent modal-trigger">Login</a>
+                        </li>
+                        <li><a href="https://www.facebook.com/hjscltp/" target="_self">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        </li>
+                        <li><a href="https://www.instagram.com/rouzhel/?hl=en" target="_self">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="main-header">
+                <div class="transparent">
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-log"></a>
+                        <a href="#" data-target="slide-out" class="sidenav-trigger">
+                            <i class="material-icons"> menu </i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+        
+<!--slide out / side nav-->
+<ul id="slide-out" class ="sidenav">
+    <li>
+        <div class ="user-view">
+            <div class = "background">
+                <img src="img/gb.jpg" width="350" height="150">
+            </div>
+            
+              <img class="circle" src="img/patilano.png">
+           
+              <span class="white-text name">HAZEL SAN LOVEREZ - PATILANO</span>
+            
+              <span class="white-text email">hazelsanpatilano@gmail.com</span>
+            
+        </div>
+    </li>
+
+    <li><a href="https://www.facebook.com/hjscltp/" target="_self">
+        <i class="material-icons">face</i>Profile
+    </a></li>
+    <li>
+        <a href="src/card/quotes.html" target="_self">
+            <i class="material-icons">Collections</i>Quotes</a>
+    </li>
+    <li>
+        <div class="divider"></div>
+    </li>
+    <li>
+        <a class="subheader">Additonal Information</a>
+    </li>
+    <li>
+        <a class="waves-effect" href="https://www.tesda.gov.ph/">Web Development Level III </a>
+    </li>
+</ul>
+
+    <!--Showcase-->
+    <div class="showcase container">
+        <div class="col s12 m10 offset-m1 center">
+            <br><br>
+            <h5>Happiness can exist only in Acceptance</h5>
+            <h3>
+                Build your Happiness
+            </h3>
+            <p> To fall in love with yourself is the first secret to happiness.</p>
+            <br><br>
+            <a href="read.html" data-position="bottom" data-tooltip="Read Me Please" class="btn tooltipped btn-medium white purple-text">Read More
+                
+            </a>
+            <br><br>
+        
+        </div>
+    </div>
+<!--section-->
+<div class="divider"></div>
+  <div class="section">
+
+    <h5>Creator</h5>
+  </div>
+  <div class="row">
+    <div class="col s12">
+        <div class="col left">
+            <img src="img/patilano.png" width="10%" style="border-radius: 5%; border: 5px solid white;">
+        </div>
+        <div class="col left">
+            <h6 style="color: white;">
+                Hazel San
+            </h6>
+            <h5>
+                Patilano
+            </h5>
+            <p>“Love does not begin and end the way we seem to think it does. Love is a battle, love is a war; love is a growing up.” by James Baldwin</p>
+        </div>
+        <div class="col right">
+            <p style="text-align: left">
+                Web Development Level III 
+                
+            </p>
+        </div>
+    </div>
+</div>
+</header>
+
+<!--footer-->
+<footer>
+    <div class="footer-copyright">
+        <div class="container">
+        © 2021 TESDA Scholarship
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+</footer>
+<!--Login Modal-->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <h4>Account Login</h4>
+        <p>Login to access your account dashboard </p>
+        <form>
+            <div class="input-field">
+                <input type="email" id="email">
+                <label for="email">
+                    {
+                        Email Address
+                    }
+                </label>
+            </div>
+            <div class="input-field">
+                <input type="password" id="password">
+                <label for="password">
+                    {
+                        Password
+                    }
+                </label>
+            </div>
+        </form>
+        <div class="modal-footer">
+            <a href="" class="modal-action modal-close btn purple">
+                <i class="fa fa-sync">Reset Password</i>
+            </a>
+            <a href="" class="modal-action modal-close btn purple">
+                <i class="fa falock">Login</i>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+    
+     
+    <!--Jquery CDN-->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script>
+        $(document).ready(function()
+        //side nav
+        {
+            $('.sidenav').sidenav({
+                edge:'right',
+                inDuration:1000
+            });        
+        });
+        //tooltipped
+        $(document).ready(function(){
+             $('.tooltipped').tooltip();
+        });
+        
+        //login modal
+        $(document).ready(function(){
+             $('.modal').modal();
+        });
+     
+    </script>
+  
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+
+.main-header{
+    background:url(../img/1120863.jpg);
+    min-height: 800px;
+    background-position:center;
+    color: #ffff;
+    font-family:cursive;
+}
+.card-body{
+color:black;
+font-family:fantasy;
+background:url(../img/1120863.jpg);
+text-align: justify;
+color: #ffff;
+}
+
+.card-tabs{
+  color:black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background:url(../img/1120863.jpg);
+  color: #ffff;
+  font-size: large;
+  }
+
+  .card-tabs-content{
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:url(../img/1120863.jpg);
+    color: #ffff;
+    }
+.body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+.main-body{
+    background:url(../img/1120863.jpg);
+    min-height: 800px;
+    background-position:center;
+    color: #ffff;
+    font-family:cursive;
+}
+
+.btn-exten{
+  display: block;
+  width:100x;
+}
+  main {
+    flex: 1 0 auto;
+  }

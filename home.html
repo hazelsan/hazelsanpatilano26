@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Font Awesome-->
+     <script src="https://kit.fontawesome.com/919daa3e3b.js" crossorigin="anonymous"></script>
+     <!--Material Icons--> 
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> <link rel="stylesheet" href="css/main.css">
+     <!-- Override Materialize CSS -->
+     <link rel="stylesheet" href="src/style.css">
+    <title>Home</title>
+</head>
+<body class="main-header">
+    <div class="container">
+        <div class="col s12 centered_icons">
+            
+            <i class="large material-icons"><a href="index.html">assignment_turned_in</i></a>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <h3>
+                    Inspirational Acceptance Quotes About Life, Love and Relationships
+                </h3>
+            </div>
+        </div>
+   <!--Card Tabs-->
+   <div class="card card-body">
+    <div class="card-content">
+      <p>All of us go through it. At one point in our life, maybe even right now, acceptance can be the most important thing. Whether it's acceptance from our family, friends, classmates or coworkers – we all want to feel respected, understood and connected.</p>
+    </div>
+    <div class="card-tabs">
+      <ul class="tabs tabs-fixed-width">
+        <li class="tab">
+            <a class="active" href="#test1">Acceptance</a>
+        </li>
+        <li class="tab">
+            <a class="active" href="#test2">Positive Thoughts</a>
+        </li>
+        <li class="tab">
+            <a href="#test3">Be Yourself</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card-content grey lighten-4 card-tabs-content">
+        <div id="test1">
+          <p>
+            “Every step of our life we need to accept ourselves all over again.”
+            <i class="fas fa-smile-wink"></i>
+          </p>
+        </div>
+        <div id="test2">
+            <p>
+                "Stay positive, work hard, MAKE IT happen"
+                <i class="fas fa-grin-hearts"></i>
+              </p>
+        </div>
+        <div id="test3">
+            <p>
+                Be who you are and say what you feel, because those who mind don't matter, and those who matter don’t mind.
+                <i class="fas fa-kiss-beam"></i>
+              </p>
+        </div>
+    </div>
+  </div>
+
+
+
+    <!--Jquery CDN-->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script>
+       $(document).ready(function(){
+        $('.tabs').tabs();
+        });
+   </script>
+
+</body>
+</html>
